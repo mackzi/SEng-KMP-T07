@@ -12,9 +12,9 @@
 
     <target name="jar">
         <mkdir dir="jar"/>
-        <jar destfile="jar/cyclesort.jar" basedir="build">
+        <jar destfile="jar/sort.jar" basedir="build">
             <manifest>
-                <attribute name="Main-Class" value="CycleSort"/>
+                <attribute name="Main-Class" value="Sort"/>
             </manifest>
         </jar>
     </target>

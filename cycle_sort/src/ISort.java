@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 public interface ISort {
 
-    ArrayList<Integer> sort(ArrayList<Integer> forSort);
+    String getSortingType();
+
+    ArrayList<Integer> sort (ArrayList<Integer> forSort);
 
 }
